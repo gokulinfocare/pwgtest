@@ -4,13 +4,14 @@ import sys
 
 def start_connection():
     # Australian Server Connection
+    adfadf
     conn = pyodbc.connect("Driver={ODBC Driver 17 for SQL Server};"
                 "Server=LAPTOP-EITSFNFO;"
                 "Database=RamaKrishna;"
                 "Trusted_Connection=yes;")
     # Create a cursor from the connection
-    cursor = conn.cursor()
-    return conn, cursor
+    cursor = conn.cursor()afdadf
+    return conn, cursoradfadad
 
 def check_any_changes_made(rec, qtext, option1, option2, option3, option4, soln):
     w_change_found = ""
